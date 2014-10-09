@@ -77,5 +77,6 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # note to set this to your actual host !
-  config.action_mailer.default_url_options = { host: http://shielded-citadel-2651.herokuapp.com/ }
+  config.action_mailer.default_url_options = { :host => 'http://shielded-citadel-2651.herokuapp.com/' }
+  
 end
