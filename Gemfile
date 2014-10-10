@@ -43,3 +43,4 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 
 gem 'devise', '~> 3.4.0'
+gem 'paperclip', github: 'thoughtbot/paperclip'
