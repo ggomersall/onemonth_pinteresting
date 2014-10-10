@@ -22,6 +22,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
@@ -45,3 +46,4 @@ gem 'bootstrap-sass'
 gem 'devise', '~> 3.4.0'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 gem 'aws-sdk'
+gem 'masonry-rails'
